@@ -1,0 +1,26 @@
+body{
+  background-image:url("display_resultbg.avif");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+img{
+   height:50px;
+   width:50px;
+   border:2px solid red;
+   border-radius:50%;
+
+}
+
+th{
+   background-color: yellow;
+   color:red;
+   font:20px bold arial;
+}
+
+td{
+    background-color: white;
+    color: blue;
+    font: 20px italic forte;
+}
+

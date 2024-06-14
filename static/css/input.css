@@ -1,0 +1,25 @@
+body{
+   background-image:url("input_bg.jpg");
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
+fieldset{
+   margin:50px;
+   color: blue;
+   font: 20px italic monospace;
+}
+
+form{
+  margin-left:100px;
+  color: red;
+  font: 20px bold arial;
+}
+
+button{
+    border:2px solid red;
+    margin-left:100px;
+    background-color: red;
+    color:yellow;
+    font: 20px bold forte;
+}

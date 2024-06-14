@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/input.css' %}">
+
+
+</head>
+<body>
+    <fieldset>
+        <legend>Product Input Form</legend>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">upload</button>
+        </form>
+    </fieldset>
+</body>
+</html>
